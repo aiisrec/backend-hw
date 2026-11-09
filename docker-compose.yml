@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  postgresql:
+    image: postgres:17
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: monitoring
+      POSTGRES_USER: monitoring_user
+      POSTGRES_PASSWORD: IOT123!
+    ports:
+     - "5432:5432"
+
+
+volumes:
+  postgres_data:
