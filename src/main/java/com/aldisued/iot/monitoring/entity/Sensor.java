@@ -71,7 +71,7 @@ public class Sensor {
   }
 
   public void setAlerts(List<Alert> alerts) {
-    this.alerts = alerts;
+    this.alerts = alerts == null ? List.of() : alerts;
   }
 
   public List<SensorReading> getSensorReadings() {
@@ -80,7 +80,7 @@ public class Sensor {
 
   public void setSensorReadings(
       List<SensorReading> sensorReadings) {
-    this.sensorReadings = sensorReadings;
+    this.sensorReadings = sensorReadings == null ? List.of() : sensorReadings;
   }
 
   @Override
