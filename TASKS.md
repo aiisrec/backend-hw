@@ -7,10 +7,7 @@ REST APIs for collecting, processing, and analyzing sensor data.
 The collected data is stored in a PostgreSQL database.
 The database tables are created by Hibernate.If you want to change the tables, you must do so by modifying the entity classes.
 
-You will need to finish the implementation of the application by completing  
-the tasks listed below. These tasks should take about **60 minutes** to complete.  
-It is recommended to leave the optional tasks until the end and implement them  
-only if you have enough time.
+Please complete the tasks below as you would in a real project, aiming to deliver work you’re proud of. Use your own judgment—you’re not required to follow the existing code style or conventions.
 
 ### 0. Task
 
